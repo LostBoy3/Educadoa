@@ -75,6 +75,8 @@ A interface utiliza:
 
 ## 🧠 Estruturação do projeto
 
+Além da experiência visual e usabilidade, um dos focos centrais do estudo durante o desenvolvimento foi a construção de confiança e percepção de segurança dentro da plataforma, buscando transmitir transparência, credibilidade e conforto ao usuário durante a navegação e possíveis interações de doação.
+
 A organização do projeto foi baseada na matriz CSD:
 
 - Certezas
@@ -118,6 +120,7 @@ Esse projeto tem sido importante para aprofundar conhecimentos em:
 - experiência do usuário
 - estruturação de aplicações frontend
 - design de interfaces no Figma
+- construção de interfaces focadas em confiança e segurança do usuário
 
 ---
 
