@@ -126,15 +126,17 @@ Esse projeto tem sido importante para aprofundar conhecimentos em:
 
 ## 🌎 Deploy
 
-https://educadoa.vercel.app
+educadoa.vercel.app
 
 ---
 
 ## 📷 Preview
 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](./src/assets/ReadmeImgs/ImgReadme.png)
+![alt text](./src/assets/ReadmeImgs/ImgReadme1.png)
+![alt text](./src/assets/ReadmeImgs/ImgReadme2.png)
+Reponsive:
+![alt text](./src/assets/ReadmeImgs/ImgReadme3.png)
 
 ---
 
