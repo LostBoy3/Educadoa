@@ -14,10 +14,10 @@ function DashBoard() {
       <div className="w-full flex justify-center">
         <div className="bg-[#F8F8F2] bg-w p-15 rounded-3xl shadow-lg opacity-80 w-full max-w-2xl text-center transition-all duration-300 hover:scale[1.02] hover:translate-y-1 hover:opacity-100">
           <h2 className="text-2xl font-bold mb-12">Nosso objetivo é 100%!</h2>
-          <div className="flex items-end gap-14">
+          <div className="flex flex-col md:flex-row items-center md:items-end gap-8 md:gap-14">
             {data.map((item, index) => (
-              <div key={index} className="flex flex-col items-center flex-1">
-                <div className="w-full h-52 bg-gray-200 rounded-4xl flex items-end overflow-hidden">
+              <div key={index} className="flex flex-col items-center md:flex-1">
+                <div className="w-28 md:w-full h-40 md:h-52 bg-gray-200 rounded-4xl flex items-end overflow-hidden">
                   <div className="relative w-full h-full flex items-end">
                     <div
                       className="w-full bg-gradient-to-r from-bgreen to-green rounded-3x1 transition-all duration-500"
