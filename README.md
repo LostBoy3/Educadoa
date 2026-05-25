@@ -136,6 +136,7 @@ educadoa.vercel.app
 ![alt text](./public/Images/ReadmeImgs/ImgReadme1.png)
 ![alt text](./public/Images/ReadmeImgs/ImgReadme2.png)
 Reponsive:
+
 ![alt text](./public/Images/ReadmeImgs/ImgReadme3.png)
 
 ---
