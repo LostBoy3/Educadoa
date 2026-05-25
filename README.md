@@ -132,11 +132,11 @@ educadoa.vercel.app
 
 ## 📷 Preview
 
-![alt text](./src/assets/ReadmeImgs/ImgReadme.png)
-![alt text](./src/assets/ReadmeImgs/ImgReadme1.png)
-![alt text](./src/assets/ReadmeImgs/ImgReadme2.png)
+![alt text](./public/Images/ReadmeImgs/ImgReadme.png)
+![alt text](./public/Images/ReadmeImgs/ImgReadme1.png)
+![alt text](./public/Images/ReadmeImgs/ImgReadme2.png)
 Reponsive:
-![alt text](./src/assets/ReadmeImgs/ImgReadme3.png)
+![alt text](./public/Images/ReadmeImgs/ImgReadme3.png)
 
 ---
 
