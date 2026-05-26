@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import LogoOng from "../../assets/LogoOng1.svg";
+import LogoOng from "../../assets/Logos/LogoOng1.svg";
 
 function OngCards() {
   return (

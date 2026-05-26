@@ -4,7 +4,6 @@ function InfoCard() {
   return (
     <section className="w-full py-10 px-4 lg:py-18">
       <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-3 justify-items-center lg:max-w-full fade-up">
-        {/* Card 1 */}
         <div
           className="
         order-1 
@@ -39,7 +38,6 @@ function InfoCard() {
           </p>
         </div>
 
-        {/* Card 2 */}
         <div
           className="order-3 
         md:order-2 
@@ -77,7 +75,6 @@ function InfoCard() {
           </Link>
         </div>
 
-        {/* Card 3 */}
         <div
           className="order-2 
         md:order-3 
