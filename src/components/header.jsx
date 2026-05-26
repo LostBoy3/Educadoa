@@ -27,7 +27,7 @@ function Header() {
           </li>
         </ul>
 
-        <div className="scale-90 sm:scale-100">
+        <div className="scale-80 sm:scale-90">
           <Link to="/doar">
             <Button />
           </Link>

@@ -44,15 +44,15 @@ function FeedBack() {
     <div className="">
       <h2 className="text-3xl text-center p-15 font-potta">Avaliações:</h2>
 
-      <div className="flex justify-center w-full px-6 gap-10 fade-up">
+      <div className="relative flex justify-center items-center w-full px-6 fade-up">
         <button
           onClick={feedbackAnterior}
-          className="bg-[#CFE6D7] w-12 h-12 rounded-full text-2xl p-2 hover:bg-[#b8d6c3] transition duration-300 hover:scale[1.02] hover:translate-y-1"
+          className="absolute left-0 md:left-6 z-10 bg-[#CFE6D7] w-12 h-12 rounded-full text-2xl p-2 hover:bg-[#b8d6c3] transition duration-300 hover:scale-[1.02] hover:translate-y-1"
         >
           🠸
         </button>
 
-        <div className="max-w-3xl bg-[#E7F3EC] rounded-3xl p-8 flex-col sm:flex sm:flex-row items-center gap-7 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:translate-y-1">
+        <div className="w-full max-w-5xl bg-[#E7F3EC] rounded-3xl p-8 flex-col sm:flex sm:flex-row items-center gap-7 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:translate-y-1">
           <div className="flex flex-col items-center min-w-[120px]">
             <img
               src={FeedImg}
@@ -71,7 +71,7 @@ function FeedBack() {
         </div>
         <button
           onClick={proximoFeedback}
-          className="bg-[#CFE6D7] w-12 h-12 p-2 rounded-full text-2xl hover:bg-[#b8d6c3] transition duration-300 hover:scale-[1.02] hover:translate-y-1"
+          className="absolute right-0 md:right-6 z-10 bg-[#CFE6D7] w-12 h-12 p-2 rounded-full text-2xl hover:bg-[#b8d6c3] transition duration-300 hover:scale-[1.02] hover:translate-y-1"
         >
           🠺
         </button>

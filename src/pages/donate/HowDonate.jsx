@@ -16,6 +16,7 @@ function HowDonate() {
         text-white 
         shadow-lg
         text-center
+        fade-up
         
         transition-all duration-300 ease-out 
 

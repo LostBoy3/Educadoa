@@ -2,12 +2,12 @@ function Footer() {
   return (
     <footer className="bg-bgreen text-white mt-20">
       <div className="max-w-7xl mx-auto px-4 py-12 grid gap-10 md:grid-cols-3 text-center">
-        <div>
-          <h3 className="font-potta text-3xl bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text text-left">
+        <div className="flex flex-col justify-center">
+          <h3 className="font-potta text-3xl text-white text-transparent bg-clip-text text-center md:text-left">
             Educadoa
           </h3>
 
-          <p className="font-dm text-sm text-white leading-relaxed mt-2 text-left">
+          <p className="font-dm text-sm text-white leading-relaxed mt-2 text-center md:text-left">
             Milhares de crianças ainda não têm acesso à educação. Você pode
             mudar isso hoje.
           </p>
