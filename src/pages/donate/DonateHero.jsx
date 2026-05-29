@@ -8,7 +8,7 @@ function DonateHero() {
         src={DonateImage}
         alt="Img"
       />
-      <h1 className="relative z-10 text-3xl lg:text-5xl font-bold text-center max-w-4x1 px-6 pt-10 text-white font-dm  ">
+      <h1 className="relative z-10 text-3xl lg:text-5xl font-bold text-center max-w-4x1 px-6 pt-10 text-white font-potta">
         Conectamos pessoas que querem ajudar com ONGs que <br />
         realmente fazem diferença.
       </h1>
