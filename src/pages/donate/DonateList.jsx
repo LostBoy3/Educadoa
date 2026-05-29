@@ -32,11 +32,25 @@ function DonateList() {
         />
       </div>
 
-      <div className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredOngs.map((ong) => (
-          <DonateCard key={ong.id} ong={ong} />
-        ))}
-      </div>
+      {filteredOngs.length === 0 ? (
+        <div className="text-center py-20">
+          {" "}
+          <h3 className="text-2xl font-semibold text-gray-700">
+            {" "}
+            Nenhuma ONG encontrada{" "}
+          </h3>{" "}
+          <p className="text-gray-500 mt-3">
+            {" "}
+            Não existem ONGs para o filtro selecionado.{" "}
+          </p>{" "}
+        </div>
+      ) : (
+        <div className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filteredOngs.map((ong) => (
+            <DonateCard key={ong.id} ong={ong} />
+          ))}
+        </div>
+      )}
     </section>
   );
 }
